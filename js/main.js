@@ -44,7 +44,10 @@ Note: main.js, All Default Scripting Languages For This Theme Included In This F
 /*----------------------------------------*/
     jQuery('.hb-menu nav').meanmenu({
         meanMenuContainer: '.mobile-menu',
-        meanScreenWidth: "991"
+        meanScreenWidth: "991",
+		meanMenuCloseSize:"45px",
+		meanRevealPosition:"right",
+		meanMenuOpen: "<div class='test_menu'><span /><span /><span /></div>"
     })
  /*----------------------------------------*/
  /*  02. Header Dropdown
@@ -121,7 +124,7 @@ Note: main.js, All Default Scripting Languages For This Theme Included In This F
 /*----------------------------------------*/
 	$(".special-product-active").owlCarousel({
 		loop: true,
-		nav: false,
+		nav: true,
 		dots: false,
 		autoplay: false,
 		autoplayTimeout: 5000,
