@@ -425,7 +425,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		padding-top: 30px;
 	}
 	.mean-container a.meanmenu-reveal {
-		right: 0 !important;
+		/* right: 0 !important; */
 	}
 	.hm-wishlist {
 		margin-right: 15px;
@@ -909,6 +909,58 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	/*Contact Page*/
 	h3.contact-page-title {
 		font-size: 25px;
+	}
+}
+/* Respnsive Design for the mobile navbar */
+@media (min-width: 300px) and (max-width: 990px){
+	.search-column{
+		position:relative ;
+		top: 0px;
+		left: 60px;
+		/* overflow-x: hidden ; */
+	}
+}
+@media (min-width: 482px) and (max-width: 576px){
+	.search-column{
+		position:relative ;
+		top: 0px;
+		left: 10px;
+	}
+	.header-middle-right{
+		position: relative;
+		transform: translateX(15rem);
+	}
+	 .meanmenu-reveal{
+		transform: translateX(20px);
+	}
+}
+@media (min-width: 320px) and (max-width: 483px){
+	.search-column{
+		position:relative ;
+		top: 0px;
+		left: 10px;
+		overflow-x: hidden ;
+	}
+	.header-middle-right{
+		position: relative;
+		transform: translateX(5rem);
+	}
+	.meanmenu-reveal{
+		transform: translateX(1.5rem);
+	}
+}
+@media  (max-width: 320px){
+	.search-column{
+		position:relative ;
+		top: 0px;
+		left: 2px;
+	}
+	.header-middle-right{
+		position: relative;
+		left: 5rem;
+	}
+	.meanmenu-reveal{
+		transform: translateX(20px);
 	}
 }
 /*----------------------------------------------------------------------------------------------------*/
