@@ -77,7 +77,7 @@ body {
 	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 a {
 	color: #a4a4a4;
@@ -837,7 +837,7 @@ textarea:focus {
 .mobile-menu-area .mobile-menu .mean-bar .meanmenu-reveal, 
 .mobile-menu-area-4 .mobile-menu .mean-bar .meanmenu-reveal {
 	position: absolute;
-	top: -80px;
+	top: -85px;
 	left: -10px !important;
 	/* left: auto !important; */
 	/* right: -12px !important; */
@@ -857,7 +857,7 @@ textarea:focus {
 .mean-container a.meanmenu-reveal span {
 	display: block;
 	background: #282828;
-	height: 3px;
+	height: 4px;
 	margin-top: 3px;
 }
  .mobile-menu .mean-bar .meanmenu-reveal span.menu-bar:before, .mobile-menu .mean-bar .meanmenu-reveal span.menu-bar:after {
@@ -1857,9 +1857,9 @@ textarea:focus {
 .megamenu > li {
 	padding: 0 20px;
 	/* min-width: 250px; */
-	width: 1200px;
+	width: 1000px;
 	border-right: 1px solid #ebebeb;
-	flex: 1 1 20% !important;
+	flex: 1 1 25% !important;
 }
 .megamenu > li:first-child {
 	padding-left: 5px;
