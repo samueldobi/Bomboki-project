@@ -916,7 +916,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	.search-column{
 		position:relative ;
 		top: 0px;
-		left: 60px;
+		left: 2px;
 		/* overflow-x: hidden ; */
 	}
 }
@@ -928,7 +928,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 	}
 	.header-middle-right{
 		position: relative;
-		transform: translateX(15rem);
+		/* transform: translateX(15rem); */
 	}
 	 .meanmenu-reveal{
 		transform: translateX(20px);
@@ -941,7 +941,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		left: 10px;
 		overflow-x: hidden ;
 	}
-	.header-middle-right{
+	.hm-menu{
 		position: relative;
 		transform: translateX(5rem);
 	}
@@ -963,10 +963,57 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		transform: translateX(20px);
 	}
 }
-@media (min-width: 572px) and (max-width: 994px){
-	.hm-searchbox {
-	transform: translateX(3rem);
+@media (min-width: 768px) and (max-width: 990px){
+	.hm-searchbox{
+		transform: translateX(3rem);
+	}
+	.hm-menu {
+		transform: translateX(3rem);
+	}
+	.hm-minicart{
+		transform: translateX(-1rem);
+	}
 }
+@media (min-width: 768px) and (max-width: 990px){
+	.search-column{
+		transform: translateX(3rem);
+	}
+}
+@media (min-width: 405px) and (max-width: 575px){
+	.hm-menu{
+		transform: translateX(8rem);
+	}
+}
+@media (min-width: 321px) and (max-width: 404px){
+	.hm-menu{
+		transform: translateX(4rem);
+	}
+}
+@media (min-width: 300px) and (max-width: 320px){
+	.hm-menu{
+		transform: translateX(-1rem);
+	}
+}
+@media (min-width: 300px) and (max-width: 320px){
+	/* .hm-menu{
+		transform: translateX(0rem);
+	}
+	.meanmenu-reveal{
+		transform: translateX(-17rem);
+	} */
+	
+}
+@media (min-width: 200px) and (max-width: 299px){
+	.header-middle-right{
+		transform: translateX(-2rem);
+		max-width: 210px;
+	}
+	.meanmenu-reveal{
+		transform: translateX(-0.1rem);
+	} 
+	.hm-searchbox{
+		transform: translateX(-0.8rem);
+	}
 }
 /*----------------------------------------------------------------------------------------------------*/
 /*------------------------------------------> The End <-----------------------------------------------*/
