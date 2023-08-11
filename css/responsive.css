@@ -654,6 +654,7 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		display: flex;
 		justify-content: flex-start;
 		padding-top: 40px;
+		max-width: 300px;
 	}
 	.mean-container a.meanmenu-reveal {
 		right: 0 !important;
@@ -911,36 +912,39 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		font-size: 25px;
 	}
 }
-/* Respnsive Design for the mobile navbar */
-@media (min-width: 300px) and (max-width: 990px){
-	.search-column{
-		position:relative ;
-		top: 0px;
-		left: 2px;
-		/* overflow-x: hidden ; */
+/*  Additonal Respnsive Design for the mobile navbar */
+ @media (min-width: 768px) and (max-width: 890px){
+	.hm-menu{
+		transform: translateX(2.5rem);
+	}
+} 
+ @media (min-width: 576px) and (max-width: 670px){
+	.hm-menu{
+		transform: translateX(3rem);
+	}
+} 
+ @media (min-width: 576px) and (max-width: 670px){
+	.hm-menu{
+		transform: translateX(3rem);
+	}
+} 
+@media (min-width: 484px) and (max-width: 575px){
+	.hm-menu{
+		 transform: translateX(7rem);
 	}
 }
+
 @media (min-width: 482px) and (max-width: 576px){
 	.search-column{
 		position:relative ;
 		top: 0px;
 		left: 10px;
 	}
-	.header-middle-right{
-		position: relative;
-		/* transform: translateX(15rem); */
-	}
 	 .meanmenu-reveal{
 		transform: translateX(20px);
 	}
 }
-@media (min-width: 320px) and (max-width: 483px){
-	.search-column{
-		position:relative ;
-		top: 0px;
-		left: 10px;
-		overflow-x: hidden ;
-	}
+@media (min-width: 328px) and (max-width: 483px){
 	.hm-menu{
 		position: relative;
 		transform: translateX(5rem);
@@ -949,71 +953,21 @@ Note: responsive.css, All Responsive CSS Style For This Theme Included In This F
 		transform: translateX(1.5rem);
 	}
 }
-@media  (max-width: 320px){
-	.search-column{
-		position:relative ;
-		top: 0px;
-		left: 2px;
-	}
-	.header-middle-right{
+@media  (max-width: 327px){
+	.hm-menu{
 		position: relative;
-		left: 5rem;
-	}
-	.meanmenu-reveal{
-		transform: translateX(20px);
+		left: 3rem;
 	}
 }
-@media (min-width: 768px) and (max-width: 990px){
-	.hm-searchbox{
-		transform: translateX(3rem);
-	}
-	.hm-menu {
-		transform: translateX(3rem);
-	}
-	.hm-minicart{
-		transform: translateX(-1rem);
-	}
+@media (min-width: 572px) and (max-width: 994px){
+	.hm-searchbox {
+	transform: translateX(3rem);
 }
-@media (min-width: 768px) and (max-width: 990px){
-	.search-column{
-		transform: translateX(3rem);
-	}
-}
-@media (min-width: 405px) and (max-width: 575px){
+@media (min-width: 483px) and (max-width: 564px){
 	.hm-menu{
-		transform: translateX(8rem);
+		transform: translateX(1rem) !important;
 	}
 }
-@media (min-width: 321px) and (max-width: 404px){
-	.hm-menu{
-		transform: translateX(4rem);
-	}
-}
-@media (min-width: 300px) and (max-width: 320px){
-	.hm-menu{
-		transform: translateX(-1rem);
-	}
-}
-@media (min-width: 300px) and (max-width: 320px){
-	/* .hm-menu{
-		transform: translateX(0rem);
-	}
-	.meanmenu-reveal{
-		transform: translateX(-17rem);
-	} */
-	
-}
-@media (min-width: 200px) and (max-width: 299px){
-	.header-middle-right{
-		transform: translateX(-2rem);
-		max-width: 210px;
-	}
-	.meanmenu-reveal{
-		transform: translateX(-0.1rem);
-	} 
-	.hm-searchbox{
-		transform: translateX(-0.8rem);
-	}
 }
 /*----------------------------------------------------------------------------------------------------*/
 /*------------------------------------------> The End <-----------------------------------------------*/

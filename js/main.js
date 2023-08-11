@@ -45,7 +45,7 @@ Note: main.js, All Default Scripting Languages For This Theme Included In This F
     jQuery('.hb-menu nav').meanmenu({
         meanMenuContainer: '.mobile-menu',
         meanScreenWidth: "991",
-		meanMenuCloseSize:"45px",
+		meanMenuCloseSize:"55px",
 		meanRevealPosition:"right",
 		meanMenuOpen: "<div class='test_menu'><span /><span /><span /></div>"
     })

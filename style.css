@@ -837,7 +837,7 @@ textarea:focus {
 .mobile-menu-area .mobile-menu .mean-bar .meanmenu-reveal, 
 .mobile-menu-area-4 .mobile-menu .mean-bar .meanmenu-reveal {
 	position: absolute;
-	top: -85px;
+	top: -78px;
 	left: -10px !important;
 	/* left: auto !important; */
 	/* right: -12px !important; */
@@ -5450,6 +5450,9 @@ span.required {
 .test_menu{
 	padding: 2px;
 	transform: scale(2.3);
+}
+.test_menu span{
+	margin-bottom: 4px;
 }
 /* Remove dropdown on home and checkout links */
 .hb-menu nav > ul > li > .remove-dropdown::after {
